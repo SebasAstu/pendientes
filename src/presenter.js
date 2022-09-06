@@ -17,16 +17,7 @@ form.addEventListener("submit", (event) => {
   }
   else
   {
-    div.innerHTML = div.innerHTML+ "<p>" + "Tarea: "+Tarea_descripcion + "</p>";
+    div.innerHTML = div.innerHTML+ "<p>" + "Tarea: descripcion.- "+Tarea_descripcion + "</p>";
   }
   
 });
-
-//formMul.addEventListener("submit", (event) => {
-//  event.preventDefault();
-//
-//  const firstNumberMul = Number.parseInt(firstMul.value);
-//  const secondNumberMul = Number.parseInt(secondMul.value);
-//
-//  divMul.innerHTML = "<p>" + multiplicar(firstNumberMul, secondNumberMul) + "</p>";
-//});
