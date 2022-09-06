@@ -11,7 +11,15 @@ form.addEventListener("submit", (event) => {
 
   const Tarea_descripcion= descripcion.value;
 
-  div.innerHTML = div.innerHTML+ "<p>" + "Tarea: "+Tarea_descripcion + "</p>";
+  if (Tarea_descripcion =="" )
+  {
+    alert("el campo de descripcion esta vacio por favor rellenar")
+  }
+  else
+  {
+    div.innerHTML = div.innerHTML+ "<p>" + "Tarea: "+Tarea_descripcion + "</p>";
+  }
+  
 });
 
 //formMul.addEventListener("submit", (event) => {
